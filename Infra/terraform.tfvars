@@ -20,7 +20,7 @@ azs = [
   "ap-south-1c"
 ]
  
-cluster_name = "citi-eks-cluster"
+cluster_name = "citi-1-eks-cluster"
  
 tags = {
   Environment = "aws-dev"

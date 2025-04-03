@@ -36,12 +36,12 @@ node_groups = {
     ami_type       = "AL2_x86_64"
     disk_size      = 20
   }
-  spot = {
-    desired_size    = 1
-    max_size       = 2
-    min_size       = 1
-    instance_types = ["t3.medium", "t3a.medium"]
-    ami_type       = "AL2_x86_64"
-    disk_size      = 20
-  }
+  # spot = {
+    # desired_size    = 1
+   # max_size       = 2
+   # min_size       = 1
+   # instance_types = ["t3.medium", "t3a.medium"]
+   # ami_type       = "AL2_x86_64"
+   # disk_size      = 20
+ # }
 }
